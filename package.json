@@ -1,0 +1,21 @@
+{
+  "name": "morseboard",
+  "version": "1.0.0",
+  "description": "Receive morse code messages via your Mac keyboard lights",
+  "main": "index.js",
+  "repository": "git@github.com:aaronbassett/morseboard.git",
+  "author": "Aaron Bassett <me@aaronbassett.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --ignore lib --exec babel-node src/index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "nodemon": "^1.11.0",
+    "standard": "^10.0.2"
+  },
+  "dependencies": {
+    "sleep": "^5.1.1"
+  }
+}
